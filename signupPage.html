@@ -43,10 +43,37 @@
             font-size: 30px;
             font-weight: bold;
         }
+        #nav{
+            display:flex;
+            background-color: #1b2837;
+            justify-content: flex-start;
+            color: white;
+            padding-left: 20px;
+            border-radius: 20px;
+            align-items: center;
+        }
+        .section{
+            display: flex;
+            gap: 70px;
+            margin-left: 650px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
 
     </style>
 </head>
 <body>
+    <div id="nav">
+        <div><h2>Reebok</h2></div>
+        <div class="section">
+            <div><a href="mens.html" target="_blank"><h3>Men</h3></a></div>
+            <div><h3>Women</h3></div>
+            <div><a href="login.html" target="_blank"><h3>Login</h3></a></div>
+            <div><a href="signupPage.html" target="_blank"><h3>Signup</h3></a></div>
+        </div>
+    </div>
 <div id="signup">
     <p>-Visitor-</p>
     <input id="name" type="text" placeholder="Full name"/>
