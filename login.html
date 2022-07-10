@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        width: 80%;
+        height: 800px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,500px);
+        grid-template-rows: repeat(1,700px);
+        justify-content: space-around;
+        background-color: #4b83cf;
+    }
+    #container>div{
+        margin-top:90px;
+        border-radius: 20px;
+        background-color: white;
+    }
+    h1{
+        text-align: center;
+        margin-top: 100px;
+    }
+    h1~p{
+        margin-top: 60px;
+        margin-left: 100px;
+        color: grey;
+    }
+    hr{
+        width: 60%;
+        text-align: center;
+        font-weight: bold;  
+    }
+    button{
+        width: 60%;
+        height: 10%;
+        margin-left: 100px;
+        margin-top: 50px;
+        background-color: #8a47ae ;
+        color: white;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    button~p{
+        margin-left: 170px;
+    }
+</style>
+<body>
+    <div id="container">
+       <div>
+            <h1>Login</h1>
+            <p>Email</p>
+            <hr>
+            <p>Password</p>
+            <hr>
+            <button>Login</button>
+            <p>Forgot Password?</p>
+            <p style="margin-left: 140px;margin-top: 20px;">Dont have an account?Sign Up</p>
+       </div>
+    </div>
+</body>
+</html>
